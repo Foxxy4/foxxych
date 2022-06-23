@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -274,4 +275,60 @@ color: #d9d9d9;
 .travel-sec-img img {
 
     background-size: cover;
+}
+
+@media only screen and (max-width: 1080px) {
+    .portfolio{
+        overflow-x: hidden;
+    }
+    .navbar-container{
+        
+    }
+    .navbar-links {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-rows: 1vh 1vh 1vh;
+        gap: 10rem;
+        justify-content: flex-start;
+    }
+    .navbar-links li {
+        font-size: 30px;
+    }
+    .text-container{
+        line-height: 200px;
+    }
+    .c-info-container{
+        display: grid;
+        grid-template-rows: 13vh 7vh ;
+    }
+    .intro-c{
+        width: 100%;
+    }
+    .c-info-projects{
+        font-size: 8rem;
+    }
+    .projects {
+        width: 100%;
+        height: 40vh;
+        
+    }
+    .projects-text-container{
+        height: 60vh;
+        
+    }
+    .projects-container{
+        height: 27vh;
+        margin-top: 0vh;
+    }
+    
+    .portfolio {
+        
+        height: 140vh;
+    }
+    .jager-text-min {
+        font-size: 31px;
+    }
+    .jager-text {
+        font-size: 36px;
+    }
 }
