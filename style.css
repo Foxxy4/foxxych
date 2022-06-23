@@ -277,7 +277,7 @@ color: #d9d9d9;
     background-size: cover;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1000px) {
     .portfolio{
         overflow-x: hidden;
     }
